@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My News App</title>
+   <!--<script src="js/api.js" type="module"></script>!-->
+   <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">!-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        
+        <a class="logo" href="index.html"><img src="https://www.freeiconspng.com/uploads/news-icon-25.jpg" width="50px" height="50px">NewsZone</a>
+        </a>
+        <div id="news-category" class="navbar">
+        <a class="category-item" data-id="general">General</a>
+        <a class="category-item"data-id="business">Business</a >
+        <a  class="category-item" data-id="entertainment">Entertainment</a>
+        <a  class="category-item" data-id="health">Health</a>
+        <a  class="category-item" data-id="science">Science</a>
+        <a  class="category-item" data-id="sports">Sports</a>
+        <a  class="category-item" data-id="technology">Technology</a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h2 id="heading">General</h2>
+    <div class="row" id="main-card">
+     </div>
+     <button><<</button>
+       <button onclick="next();">>></button>
+    </div>
+
+    <div class="footer">
+        &copy; 2022, NewsZone
+            </div>
+
+    <script src="js/index.js"></script>
+     
+</body>
+</html>
